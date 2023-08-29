@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smart_garden_app/screens/aepod_setup.dart';
 import 'package:smart_garden_app/screens/personalize_experience.dart';
 
 import '../AppWidgets/app_button.dart';
@@ -24,7 +25,7 @@ class Login extends StatelessWidget {
                   buttonText: 'Login',
                   callback: () {
                     Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => const PersonalizeExperience()));
+                        builder: (context) => const AepodSetup()));
                   },
                   isPrimary: true,
                   backgroundColor: Colors.white,
